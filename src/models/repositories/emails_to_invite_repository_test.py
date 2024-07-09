@@ -17,7 +17,7 @@ def test_registry_email():
         "email": "olamudo@email.com"
     }
 
-    emails_to_invite_repository.registry__email(email_trip_infos)
+    emails_to_invite_repository.registry_email(email_trip_infos)
 
 
 @pytest.mark.skip(reason="interacao com o banco") 
